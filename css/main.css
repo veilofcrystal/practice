@@ -1,0 +1,54 @@
+body{
+    background: url(../images/Firefly\ beautiful\ cats\ flying\ in\ space\ 57573.jpg);
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    color:aquamarine;
+    font-size: larger;
+
+}
+
+h1{ 
+    display: none;
+}
+
+nav {
+    border: 1px solid white;
+    border-radius: 45%;
+    display: inline-block;
+    text-align: center;
+
+}
+
+a {
+    border: 1px solid aquamarine;
+    border-radius: 45%;
+}
+
+.lightbox1 {
+    background-image: url(../images/Firefly\ demon\ cat\ with\ flames\ behind\ it.\ 4836.jpg);
+    background-repeat: no-repeat;
+    animation: color 13s infinite linear;
+}
+
+@keyframes color {
+    0% {background: black;}
+    20% {background: darkred;}
+    40% {background: red;}
+    60% {background: black;}
+    80% {background: darkred;}
+    100% {background: darkslategrey;}
+}
+
+.lightbox2 {
+    background-image: url(../images/Firefly\ angelic\ cat\ with\ flowers\ and\ bubbles\ behind\ it\ 57573.jpg);
+    background-repeat: no-repeat;
+    animation: color 13s infinite linear;
+}
+
+@keyframes color {
+    0% {background: white;}
+    20% {background: lightblue;}
+    40% {background: turquoise;}
+    60% {background: aqua;}
+    80% {background: aquamarine;}
+    100% {background: lightblue;}
+}
